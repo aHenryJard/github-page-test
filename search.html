@@ -7,7 +7,7 @@
         <title>Splendid Store</title>
         <link rel="stylesheet" href="app.css" />
     </head>
-    <body>
+    <body onload="coucou()">
         <div class="container">
             <h1>&#x2728;Palettes&#x2728;</h1>
             <div id="searchWrapper">
@@ -103,8 +103,10 @@ h1 {
 
 
 <script>// const charactersList = document.getElementById('charactersList');
+function coucou() {
+    console.log("coucou");
+}
 
-console.log("coucou");
 const productsList = document.getElementById('productsList');
 
 // let hpCharacters = [];
